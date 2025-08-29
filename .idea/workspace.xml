@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c62ea7d-90be-4d7e-b205-b821624c2b62" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Comparator/ListOrdering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Comparator/ListWithNulls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Streams/DuplicateElementsInList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Streams/FirstNonRepeatingCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Streams/LazyEvaluation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="3c62ea7d-90be-4d7e-b205-b821624c2b62" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Arrays/FindAllNumbersDisapperared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Arrays/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Java8/Streams/WordOccurences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strings/CompressRepeatedCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strings/PrintUniqueCharWithoutDS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Strings/RemoveEmptyStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;akhilkumar1906&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/akhilkumar1906/coding-questions.git&quot;,
+    &quot;accountId&quot;: &quot;0a806242-7f41-4558-83fb-855decb95939&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -44,12 +51,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CompressRepeatedCharacters.executor": "Run",
     "Application.DuplicateElementsInList.executor": "Run",
+    "Application.FindAllNumbersDisapperared.executor": "Run",
     "Application.FirstNonRepeatingCharacter.executor": "Run",
     "Application.LazyEvaluation.executor": "Run",
     "Application.ListOrdering.executor": "Run",
     "Application.ListWithNulls.executor": "Run",
     "Application.NullsFirstExample.executor": "Run",
+    "Application.PrintUniqueCharWithoutDS.executor": "Run",
+    "Application.RemoveEmptyStrings.executor": "Run",
+    "Application.ReverseArray.executor": "Run",
+    "Application.WordOccurences.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -57,10 +70,11 @@
     "onboarding.tips.debug.path": "/Users/akhil/Documents/CodingQuestions/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.log"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FindAllNumbersDisapperared">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -91,65 +105,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateElementsInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Streams.DuplicateElementsInList" />
+    <configuration name="CompressRepeatedCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.CompressRepeatedCharacters" />
+      <module name="CodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindAllNumbersDisapperared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Arrays.FindAllNumbersDisapperared" />
+      <module name="CodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintUniqueCharWithoutDS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.PrintUniqueCharWithoutDS" />
+      <module name="CodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveEmptyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Strings.RemoveEmptyStrings" />
+      <module name="CodingQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Streams.WordOccurences" />
       <module name="CodingQuestions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.Java8.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstNonRepeatingCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Streams.FirstNonRepeatingCharacter" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java8.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LazyEvaluation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Streams.LazyEvaluation" />
-      <module name="CodingQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java8.Streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListOrdering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Comparator.ListOrdering" />
-      <module name="CodingQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java8.Comparator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListWithNulls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Java8.Comparator.ListWithNulls" />
-      <module name="CodingQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Java8.Comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DuplicateElementsInList" />
-      <item itemvalue="Application.FirstNonRepeatingCharacter" />
-      <item itemvalue="Application.LazyEvaluation" />
-      <item itemvalue="Application.ListOrdering" />
-      <item itemvalue="Application.ListWithNulls" />
+      <item itemvalue="Application.FindAllNumbersDisapperared" />
+      <item itemvalue="Application.PrintUniqueCharWithoutDS" />
+      <item itemvalue="Application.WordOccurences" />
+      <item itemvalue="Application.CompressRepeatedCharacters" />
+      <item itemvalue="Application.RemoveEmptyStrings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FirstNonRepeatingCharacter" />
-        <item itemvalue="Application.DuplicateElementsInList" />
-        <item itemvalue="Application.ListWithNulls" />
-        <item itemvalue="Application.ListOrdering" />
-        <item itemvalue="Application.LazyEvaluation" />
+        <item itemvalue="Application.FindAllNumbersDisapperared" />
+        <item itemvalue="Application.WordOccurences" />
+        <item itemvalue="Application.PrintUniqueCharWithoutDS" />
+        <item itemvalue="Application.CompressRepeatedCharacters" />
+        <item itemvalue="Application.RemoveEmptyStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -183,16 +196,31 @@
       <option name="presentableId" value="Default" />
       <updated>1752921600223</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1752934088293</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752934088293</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="885a63f7-579e-4c83-a9ca-3c01615820c0" value="TOOL_WINDOW" />
+        <entry key="1253cf82-7dfa-4fa4-a471-ff9636f7ccc1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="1253cf82-7dfa-4fa4-a471-ff9636f7ccc1">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="885a63f7-579e-4c83-a9ca-3c01615820c0">
           <value>
             <State />
@@ -211,6 +239,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
